@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="CipherLabRK25CameraScanningTest.MainPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <StackLayout>
+        <Frame
+            Padding="24"
+            BackgroundColor="#2196F3"
+            CornerRadius="0">
+            <Label
+                FontSize="20"
+                HorizontalTextAlignment="Center"
+                Text="After few scans camera freezes on RK25!"
+                TextColor="White" />
+        </Frame>
+
+
+
+        <Grid ColumnDefinitions="Auto,*" RowDefinitions="*,*,*">
+
+            <Label
+                Grid.Row="0"
+                Grid.Column="0"
+                Padding="5"
+                FontSize="Title"
+                Text="Count" />
+            <Label
+                Grid.Row="0"
+                Grid.Column="1"
+                Padding="5"
+                FontAttributes="Bold"
+                FontSize="Title"
+                LineBreakMode="CharacterWrap"
+                Text="{Binding Count}" />
+            <Label
+                Grid.Row="1"
+                Grid.Column="0"
+                Padding="5"
+                FontSize="Title"
+                Text="Barcode" />
+            <Label
+                Grid.Row="1"
+                Grid.Column="1"
+                Padding="5"
+                FontAttributes="Bold"
+                FontSize="Title"
+                LineBreakMode="CharacterWrap"
+                Text="{Binding Barcode}" />
+            <Label
+                Grid.Row="2"
+                Grid.Column="0"
+                Padding="5"
+                FontSize="Title"
+                Text="Type" />
+            <Label
+                Grid.Row="2"
+                Grid.Column="1"
+                Padding="5"
+                FontAttributes="Bold"
+                FontSize="Title"
+                LineBreakMode="CharacterWrap"
+                Text="{Binding Type}" />
+        </Grid>
+        <Button
+            Margin="10"
+            Command="{Binding ScanBarcode}"
+            FontSize="Title"
+            Text="Scan" />
+        <Label
+            Padding="30,24,30,0"
+            FontSize="16"
+            Text="{Binding Error}"
+            TextColor="Red" />
+    </StackLayout>
+
+</ContentPage>

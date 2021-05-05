@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CipherLabRK25CameraScanningTest.Android", "CipherLabRK25CameraScanningTest.Android\CipherLabRK25CameraScanningTest.Android.csproj", "{456D108D-A87E-42CE-B814-1AA5D5908FC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CipherLabRK25CameraScanningTest", "CipherLabRK25CameraScanningTest\CipherLabRK25CameraScanningTest.csproj", "{AFA919C2-BA8D-4102-B2B7-D8CB9691ADCC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{456D108D-A87E-42CE-B814-1AA5D5908FC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{456D108D-A87E-42CE-B814-1AA5D5908FC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{456D108D-A87E-42CE-B814-1AA5D5908FC4}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{456D108D-A87E-42CE-B814-1AA5D5908FC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{456D108D-A87E-42CE-B814-1AA5D5908FC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{456D108D-A87E-42CE-B814-1AA5D5908FC4}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{AFA919C2-BA8D-4102-B2B7-D8CB9691ADCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFA919C2-BA8D-4102-B2B7-D8CB9691ADCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFA919C2-BA8D-4102-B2B7-D8CB9691ADCC}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{AFA919C2-BA8D-4102-B2B7-D8CB9691ADCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFA919C2-BA8D-4102-B2B7-D8CB9691ADCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFA919C2-BA8D-4102-B2B7-D8CB9691ADCC}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F88CC273-F277-4230-AEBF-EC8BC89D5432}
+	EndGlobalSection
+EndGlobal
