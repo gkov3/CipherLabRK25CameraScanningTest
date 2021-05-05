@@ -1,7 +1,7 @@
 # CipherLabRK25CameraScanningTest
 Demonstrate camera freezing on CipherLab RK25
 
-The project is written in C# / Xamamrin.Forms.
+The project is written in C# / Xamarin.Forms.
 
 On RK25 after couple of scans the camera freezes and app crashes.
 
