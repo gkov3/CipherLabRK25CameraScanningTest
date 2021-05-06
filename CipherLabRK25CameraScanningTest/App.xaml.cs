@@ -2,7 +2,7 @@
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace CipherLabRK25CameraScanningTest
+namespace RK25CameraTest
 {
     public partial class App : Application
     {

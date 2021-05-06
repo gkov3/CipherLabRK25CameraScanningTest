@@ -11,7 +11,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CipherLabRK25CameraScanningTest.Droid
+namespace RK25CameraTest.Droid
 {
     public class CameraBarcodeScanner: ICameraBarcode
     {

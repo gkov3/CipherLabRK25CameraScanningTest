@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CipherLabRK25CameraScanningTest
+namespace RK25CameraTest
 {
 
     public class BarcodeResult {

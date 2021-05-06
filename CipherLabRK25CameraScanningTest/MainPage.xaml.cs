@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using System.Windows.Input;
 using Xamarin.Forms;
 
-namespace CipherLabRK25CameraScanningTest
+namespace RK25CameraTest
 {
     public partial class MainPage : ContentPage
     {
